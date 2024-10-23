@@ -1,12 +1,12 @@
-import './App.css'
+import './App.css';
+import HookExam from './components/HookExam.jsx';
 
 function App() {
-        
-  return (
-    <>
-      <h1>안녕 리액트</h1>
-    </>
-  )
+    return (
+        <>
+            <HookExam />
+        </>
+    );
 }
 
-export default App
+export default App;
