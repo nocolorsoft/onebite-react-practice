@@ -41,7 +41,10 @@ export default [
             "key-spacing": ["error", {
                 "beforeColon": false,
                 "afterColon": true
-            }]
+            }],
+            "react/jsx-wrap-multilines": ["error", {
+    "return": "parens-new-line"      // return 문의 JSX만 적용
+}]
         },
     },
 ];
